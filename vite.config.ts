@@ -5,8 +5,8 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    // Altere para o nome exato do seu repositório no GitHub entre barras
-    base: '/Conciliamento/', 
+    // Usar './' faz com que os caminhos se tornem relativos e funcionem em qualquer subpasta
+    base: './', 
     
     plugins: [react(), tailwindcss()],
     resolve: {
