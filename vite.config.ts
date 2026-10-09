@@ -1,11 +1,13 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import {defineConfig} from 'vite';
+import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
-  base: 'main',
   return {
+    // Altere para o nome exato do seu repositório no GitHub entre barras
+    base: '/Conciliamento/', 
+    
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
