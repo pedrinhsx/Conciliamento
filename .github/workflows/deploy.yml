@@ -2,7 +2,7 @@ name: Deploy Vite com Bun para o GitHub Pages
 
 on:
   push:
-    branches: ["principal"] # Altere para "main" se sua branch principal mudar de nome
+    branches: ["main"] # Altere para "main" se sua branch principal mudar de nome
 
   # Permite rodar esse fluxo manualmente na aba Actions
   workflow_dispatch:
